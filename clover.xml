@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1490053975">
-  <project timestamp="1490053975">
-    <metrics files="0" loc="0" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+<coverage generated="1490055922">
+  <project timestamp="1490055922">
+    <package name="Game">
+      <file name="/home/william/mysites/mycardgame2/src/Game.php">
+        <class name="Game" namespace="Game">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="6" type="method" name="players" crap="1" count="1"/>
+        <line num="7" type="stmt" count="1"/>
+        <metrics loc="9" ncloc="9" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <metrics files="1" loc="9" ncloc="9" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
   </project>
 </coverage>
