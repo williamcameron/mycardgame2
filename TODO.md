@@ -1,9 +1,9 @@
 Pokemon TCG
 
-Deck has 60 cards
+#Deck has 60 cards
 
 playing field has deck
-deck starts with 60 cards
+#deck starts with 60 cards
 deck has at least 1 pokemon
 playing field has discard pile
 hand

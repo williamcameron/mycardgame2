@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1490136391">
-  <project timestamp="1490136391">
+<coverage generated="1490138025">
+  <project timestamp="1490138025">
     <package name="Game">
       <file name="/home/william/mysites/mycardgame2/src/Deck.php">
         <class name="Deck" namespace="Game">
-          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
         </class>
-        <line num="6" type="method" name="size" crap="1" count="1"/>
-        <line num="7" type="stmt" count="1"/>
-        <metrics loc="9" ncloc="9" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <line num="9" type="method" name="size" crap="1" count="2"/>
+        <line num="10" type="stmt" count="2"/>
+        <line num="13" type="method" name="draw" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <metrics loc="16" ncloc="16" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
       </file>
       <file name="/home/william/mysites/mycardgame2/src/Game.php">
         <class name="Game" namespace="Game">
@@ -19,6 +22,6 @@
         <metrics loc="9" ncloc="9" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
     </package>
-    <metrics files="2" loc="18" ncloc="18" classes="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    <metrics files="2" loc="25" ncloc="25" classes="2" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
   </project>
 </coverage>
