@@ -1,6 +1,7 @@
 <?php
 
 namespace Game;
+use Game\Card;
 
 class Deck {
 	
@@ -12,5 +13,6 @@ class Deck {
 
 	public function draw(){
 		$this->size--;
+		return new Card;
 	}
 }
