@@ -1,7 +1,7 @@
 <?php
 
 namespace Game;
-use Game\Card;
+use Game\Cards\Card;
 
 class Deck {
 	

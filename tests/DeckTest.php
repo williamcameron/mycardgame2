@@ -3,7 +3,7 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Game\Deck;
-use Game\Card;
+use Game\Cards\Card;
 
 class DeckTest extends TestCase {
 	/** @test */
