@@ -3,6 +3,7 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Game\Cards\Card;
+use Game\Cards\BasicEnergy;
 use Game\Cards\CardFactory;
 
 class CardTest extends TestCase {
@@ -16,5 +17,12 @@ class CardTest extends TestCase {
 	public function water_is_energy_type(){
 		$card = CardFactory::makeByName("Water");
 		$this->assertTrue($card->energy());
+		$this->assertInstanceOf(BasicEnergy::class, $card);
+	}
+	
+	/** @test */
+	public function unknown_card_name_returns_card_by_default(){
+		$card = CardFactory::makeByName("INVALID CARD NAME");
+		$this->assertInstanceOf(Card::class, $card);
 	}
 }

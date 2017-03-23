@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1490227118">
-  <project timestamp="1490227118">
+<coverage generated="1490227361">
+  <project timestamp="1490227361">
     <package name="Game\Cards">
       <file name="/home/william/mysites/mycardgame2/src/Cards/BasicEnergy.php">
         <class name="BasicEnergy" namespace="Game\Cards">
@@ -18,14 +18,14 @@
       </file>
       <file name="/home/william/mysites/mycardgame2/src/Cards/CardFactory.php">
         <class name="CardFactory" namespace="Game\Cards">
-          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
         </class>
-        <line num="8" type="method" name="makeByName" crap="2.06" count="1"/>
-        <line num="9" type="stmt" count="1"/>
-        <line num="11" type="stmt" count="1"/>
+        <line num="8" type="method" name="makeByName" crap="2" count="2"/>
+        <line num="9" type="stmt" count="2"/>
+        <line num="11" type="stmt" count="2"/>
         <line num="12" type="stmt" count="1"/>
-        <line num="14" type="stmt" count="0"/>
-        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
+        <line num="14" type="stmt" count="1"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
       </file>
     </package>
     <package name="Game">
@@ -49,6 +49,6 @@
         <metrics loc="9" ncloc="9" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
     </package>
-    <metrics files="5" loc="59" ncloc="59" classes="5" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="8" elements="14" coveredelements="12"/>
+    <metrics files="5" loc="59" ncloc="59" classes="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="14" coveredelements="14"/>
   </project>
 </coverage>
