@@ -2,6 +2,6 @@
 
 namespace Game\Cards;
 
-class Card {
-
+class Card
+{
 }

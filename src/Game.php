@@ -2,8 +2,10 @@
 
 namespace Game;
 
-class Game {
-	public function players(){
-		return range(1,2);
-	}
+class Game
+{
+    public function players()
+    {
+        return range(1, 2);
+    }
 }
