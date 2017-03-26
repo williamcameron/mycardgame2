@@ -10,7 +10,7 @@ class CardFactory
         switch ($name) {
             case 'water':
                 return new BasicEnergy($name);
-	    case "pikachu":
+        case 'pikachu':
                 return new Pokemon($name);
             default:
                 return new Card();
