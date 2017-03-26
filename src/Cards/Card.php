@@ -9,11 +9,13 @@ class Card
        $this->name = $name;
     }
 
-    public function pokemon(){
+    public function pokemon()
+    {
         return false;
     }
-    
-    public function energy(){
-	return false;
+
+    public function energy()
+    {
+        return false;
     }
 }
