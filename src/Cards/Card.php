@@ -4,9 +4,9 @@ namespace Game\Cards;
 
 class Card
 {
-
-    public function __construct($name="Unknown"){
-       $this->name = $name;
+    public function __construct($name = 'Unknown')
+    {
+        $this->name = $name;
     }
 
     public function pokemon()
