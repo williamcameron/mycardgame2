@@ -2,9 +2,9 @@
 
 namespace Game\Cards;
 
-class BasicEnergy extends Card
+class Pokemon extends Card
 {
-    public function energy()
+    public function pokemon()
     {
         return true;
     }
