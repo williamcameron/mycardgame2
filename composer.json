@@ -1,4 +1,6 @@
 {
+    "name": "My Card Game 2",
+    "description": "My simple card game library",
     "require": {
         "phpunit/phpunit": "^4.8",
         "illuminate/database": "^4.1",
