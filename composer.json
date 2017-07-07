@@ -1,5 +1,5 @@
 {
-    "name": "My Card Game 2",
+    "name": "williamcameron/mycardgame2",
     "description": "My simple card game library",
     "require": {
         "phpunit/phpunit": "^4.8",
